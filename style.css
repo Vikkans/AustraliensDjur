@@ -35,8 +35,8 @@ li a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    text-align: left;
-    padding-left: 80px; 
+    text-align: center;
+    
     
   }
 
@@ -59,6 +59,23 @@ a{
     "main"
     "footer";
    }
+   a:hover {
+    background-color: #5f5b5b;
+   }
+  
+  img {
+    height: 450px;
+  }
 
+  li:nth-child(1){
+    padding-left: 80px;
+    padding-right:251.83px;
+   
+  }
+
+  .Hembilder{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
 
  
