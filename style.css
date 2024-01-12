@@ -11,10 +11,10 @@ ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #a45c1e;
   height: 100%;
   display: grid;
-  grid-template-columns: 2fr 0.6fr 0.6fr 0.6fr 0.6fr 2fr; 
+  grid-template-columns: 2fr 0.6fr 0.6fr 0.6fr  2fr; 
  
 
 }
@@ -59,9 +59,14 @@ a{
     "main"
     "footer";
    }
-   a:hover {
-    background-color: #5f5b5b;
+
+   
+   li:hover {
+    background-color: #b66a27;
    }
+
+
+  
   
   img {
     height: 450px;
@@ -92,6 +97,11 @@ a{
     font-size: 20px;
     font-family: Rubik,sans-serif;
     font-weight: bold;
+
+  }
+
+  main > section > img:hover{
+    transition: 0.5s;
 
   }
 
