@@ -3,13 +3,7 @@ body{
     background-color: #f7eae0;
 }
 
-header{
-}
 
-footer{
-  background-color: grey;
-  padding: 0;
-}
 ul{
  list-style-type: none;
   margin: 0;
@@ -19,21 +13,10 @@ ul{
   height: 100%;
   display: grid;
   grid-template-columns: 2fr 0.6fr 0.6fr 0.6fr  2fr; 
- 
-
 }
 
 
-li{
-   display: grid;
-   justify-items: stretch;
 
-}
-
-nav{
-    height: 100%;
-   
-}   
 
 li a {
     display: block;
@@ -41,8 +24,6 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     text-align: center;
-    
-    
   }
 
 .nav-links{
@@ -71,33 +52,12 @@ a{
     background-color: #b66a27;
    }
 
- 
-
-
-
-  
-  
-  img {
-    
-    border-radius: 10px;
-    transition: 0.5s;
-    height: 20em;
-  }
-
   li:nth-child(1){
     padding-left: 80px;
     padding-right:251.83px;
    
   }
 
-  .Hembilder{
-
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-  }
-
- 
- 
   .Djurgrupper{
     padding-top: 40px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -106,8 +66,6 @@ a{
     font-size: 20px;
     font-family: Rubik ,sans-serif;
     font-weight: bold;
-    
-
   }
 
   main > section > a >img:hover{
@@ -115,9 +73,52 @@ a{
     height: 22em;
   }
 
-
-  main > section > h1{
-    
+  main > section > a >img{
+    transition: 0.5s;
+    height: 20em;
+    border-radius: 10px;
   }
 
+  .Djur > section > img{
+    height: 32em;
+    border-radius: 10px;
+    position: absolute;
+    left: 300px;
+    top: 170px;
+  }
+  
+
+ 
+  .Djur{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 80px;
+    padding-right: 380px;
+  }
+
+  td{
+    color: rgb(45, 158, 50);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 20px;
+    border-top: 1px solid gray;
+    
+  
+  }
+
+ 
+    
+   
+    
+      
+  
+
+  td:nth-child(1){
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+  }
+
+  
+
+
+ 
  
