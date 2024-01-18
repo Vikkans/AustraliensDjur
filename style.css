@@ -6,8 +6,8 @@ body { /* Kevin */
 
 .hem {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 2fr;
+	
 }
 
 ul { /* Kevin */
@@ -132,3 +132,25 @@ a:hover{
 a:focus{
 	inherits: auto;
 }
+
+.hem > section > img{
+	height: 20em;
+}
+
+.hem > section:nth-child(1) { 
+	text-align: center;
+	
+	
+}
+
+.hem{
+	margin: 80px;
+}
+
+.hem > section > h2{
+	font-size: 40px;
+}
+
+	
+
+
