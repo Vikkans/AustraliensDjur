@@ -1,7 +1,6 @@
 body { /* Kevin */
 	height: 98vh;
 	background-color: #f7eae0;
-	overflow: hidden; /* Tar bort skrollhjulet */
 }
 
 ul { /* Kevin */
@@ -40,7 +39,7 @@ a {
 		"footer";
 }
 
-li > a:hover, :focus {
+a:hover, :focus {
 	background-color: #b66a27;
 }
 
@@ -108,12 +107,13 @@ td:nth-child(1) { /* VIKTOR */
     font-size: 20px;
   }
 
-  li > a:link {
-
+a:link { /* Kevin */
+	color:inherit
 }
-li > a:visited {
-	
+a:visited { /* Kevin */
+	color:white
 }
-li > a:active {
+a:active { /* Kevin */
 	background-color: #fffefe44;
 }
+
