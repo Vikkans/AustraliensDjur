@@ -1,20 +1,20 @@
 body { /* Kevin */
-	margin: 0;
-	height: 98vh;
-	background-color: #f7eae0;
+	margin: 0; /* Ändrar margin */
+	height: 98vh; /* Sätter en height */
+	background-color: #f7eae0; /* Bakgrundsfärg */
 }
 
-.hem {
-	display: grid;
+.hem { /* VIKTOR */
+	display: grid; 
 	grid-template-columns: 1fr 2fr;
 	
 }
 
 ul { /* Kevin */
-	list-style-type: none;
+	list-style-type: none; /* tar bort prickarna från min lista */
 	margin: 0;
-	padding: 0;
-	overflow: hidden;
+	padding: 0; /* Tar bort padding */
+	
 	background-color: #a45c1e;
 	height: 100%;
 	display: grid;
@@ -22,14 +22,14 @@ ul { /* Kevin */
 }
 
 li a { /* Kevin */
-	display: block;
-	color: white;
+	display: block; 
+	color: white; /* Färg på text */
 	padding: 14px 16px;
-	text-decoration: none;
-	text-align: center;
+	text-decoration: none; /* Tar bort understräck på länkar */
+	text-align: center; /* sätter text i mitten */
 }
-
-a {
+ 
+a { /* VIKTOR */
 	width: 176px;
 }
 
@@ -46,7 +46,7 @@ a {
 		"footer";
 }
 
-nav a:hover, a:focus {
+nav a:hover, a:focus { /* VIKTOR */
 	background-color: #b66a27;
 }
 
@@ -61,21 +61,21 @@ li:nth-child(1) { /* Kevin */
 	display: grid;
 	text-align: center;
 	font-size: 20px;
-	font-family: Rubik, sans-serif;
-	font-weight: bold;
+	font-family: Rubik, sans-serif; /* Ändrar font */
+	font-weight: bold; /* tjocklek på texten */
 }
 
 main > section > a > img:hover {
 	/* VIKTOR */
-	transition: 0.5s;
-	height: 18em;
+	transition: 0.5s; /* Lägger till en tid för att komma till samma läge */
+	height: 18em; 
 }
 
 main > section > a > img {
 	/* VIKTOR */
 	transition: 0.5s;
 	height: 16em;
-	border-radius: 10px;
+	border-radius: 10px; /* Rundade kanter */
 }
 
 .Djur > section > img {
@@ -99,7 +99,7 @@ td {
 	color: rgb(45, 158, 50);
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	padding-right: 20px;
-	border-top: 1px solid gray;
+	border-top: 1px solid gray; /* Ändrar bara den övre delen av min border */
 }
 
 td:nth-child(1) { /* VIKTOR */
@@ -107,14 +107,6 @@ td:nth-child(1) { /* VIKTOR */
 	font-weight: bold;
 }
 
-.Home{ /* Kevin */
-    text-align: center;
-}
-
-.Home > p { /* Kevin */
-
-    font-size: 20px;
-}
 
 a:link { /* Kevin */
 	color:inherit
@@ -125,30 +117,35 @@ a:visited { /* Kevin */
 a:active { /* Kevin */
 	background-color: #fffefe44;
 }
-a:hover{
+
+a:focus, a:hover{ /* KEVIN */
 	inherits: auto;
 }
 
-a:focus{
-	inherits: auto;
-}
-
-.hem > section > img{
+#flagga{ /* VIKTOR */
 	height: 20em;
 }
 
-.hem > section:nth-child(1) { 
+.hem > section:nth-child(1) { /* VIKTOR */
 	text-align: center;
-	
-	
 }
 
-.hem{
+.hem > section:nth-child(2) { /* VIKTOR */
+	padding-left: 50px;
+	padding-top: 80px;
+}
+
+
+.hem{ /* VIKTOR */
 	margin: 80px;
 }
 
-.hem > section > h2{
+.hem > section > h2{ /* VIKTOR */
 	font-size: 40px;
+}
+
+.hem > p {
+	font-size: 12	px;
 }
 
 	
